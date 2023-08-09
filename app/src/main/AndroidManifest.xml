@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nyaay">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <application
+        android:exported="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NYAAY">
+        <activity
+            android:name=".Edit"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".adddata"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".singlerow1"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Share"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Contact_Us"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Privacy_policy"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CaseStatusA"
+            android:exported="false"
+            android:parentActivityName=".MainA"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".web09"
+            android:exported="false"
+            android:parentActivityName=".CriminalManualP" />
+        <activity
+            android:name=".web08"
+            android:exported="false"
+            android:parentActivityName=".CriminalManualP" />
+        <activity
+            android:name=".web07"
+            android:exported="false"
+            android:parentActivityName=".CriminalManualP" />
+        <activity
+            android:name=".web06"
+            android:exported="false"
+            android:parentActivityName=".CriminalManualP" />
+        <activity
+            android:name=".web05"
+            android:exported="false"
+            android:parentActivityName=".CriminalManualP" />
+        <activity
+            android:name=".web04"
+            android:exported="false"
+            android:parentActivityName=".CriminalManualP" />
+        <activity
+            android:name=".web03"
+            android:exported="false"
+            android:parentActivityName=".CriminalManualP" />
+        <activity
+            android:name=".web02"
+            android:exported="false"
+            android:parentActivityName=".CriminalManualP" />
+        <activity
+            android:name=".web01"
+            android:exported="false"
+            android:parentActivityName=".CriminalManualP" />
+        <activity
+            android:name=".CaseStatus2"
+            android:exported="false" />
+        <activity
+            android:name=".web16"
+            android:exported="false"
+            android:parentActivityName=".CivilManualOptionsP" />
+        <activity
+            android:name=".web15"
+            android:exported="false"
+            android:parentActivityName=".CivilManualOptionsP" />
+        <activity
+            android:name=".web14"
+            android:exported="false"
+            android:parentActivityName=".CivilManualOptionsP" />
+        <activity
+            android:name=".web13"
+            android:exported="false"
+            android:parentActivityName=".CivilManualOptionsP" />
+        <activity
+            android:name=".web12"
+            android:exported="false"
+            android:parentActivityName=".CivilManualOptionsP" />
+        <activity
+            android:name=".web11"
+            android:exported="false"
+            android:parentActivityName=".CivilManualOptionsP" />
+        <activity
+            android:name=".web10"
+            android:exported="false"
+            android:parentActivityName=".CivilManualOptionsP" />
+        <activity
+            android:name=".web9"
+            android:exported="false"
+            android:parentActivityName=".CivilManualOptionsP" />
+        <activity
+            android:name=".web8"
+            android:exported="false"
+            android:parentActivityName=".CivilManualOptionsP" />
+        <activity
+            android:name=".web7"
+            android:exported="false"
+            android:parentActivityName=".CivilManualOptionsP" />
+        <activity
+            android:name=".web6"
+            android:exported="false"
+            android:parentActivityName=".CivilManualOptionsP" />
+        <activity
+            android:name=".web5"
+            android:exported="false"
+            android:parentActivityName=".CivilManualOptionsP" />
+        <activity
+            android:name=".web4"
+            android:exported="false"
+            android:parentActivityName=".CivilManualOptionsP" />
+        <activity
+            android:name=".web3"
+            android:exported="false"
+            android:parentActivityName=".CivilManualOptionsP" />
+        <activity
+            android:name=".Web2"
+            android:exported="false"
+            android:parentActivityName=".CivilManualOptionsP" />
+        <activity
+            android:name=".Web1"
+            android:exported="false"
+            android:parentActivityName=".CivilManualOptionsP" />
+        <activity
+            android:name=".CivilManualOptionsP"
+            android:exported="false"
+            android:parentActivityName=".InfoCenterP" />
+        <activity
+            android:name=".CaseStatusPN"
+            android:exported="false" />
+        <activity
+            android:name=".Vakalatnama"
+            android:exported="false"
+            android:parentActivityName=".OtherFormsP" />
+        <activity
+            android:name=".SurityBondP"
+            android:exported="false"
+            android:parentActivityName=".OtherFormsP" />
+        <activity
+            android:name=".ProcessFeesFormP"
+            android:exported="false"
+            android:parentActivityName=".OtherFormsP" />
+        <activity
+            android:name=".NoticeP"
+            android:exported="false"
+            android:parentActivityName=".OtherFormsP" />
+        <activity
+            android:name=".MemorandumP"
+            android:exported="false"
+            android:parentActivityName=".OtherFormsP" />
+        <activity
+            android:name=".PoliceReport"
+            android:exported="false"
+            android:parentActivityName=".OtherFormsP" />
+        <activity
+            android:name=".MediForm"
+            android:exported="false"
+            android:parentActivityName=".OtherFormsP" />
+        <activity
+            android:name=".MotorAccidentP"
+            android:exported="false"
+            android:parentActivityName=".OtherFormsP" />
+        <activity
+            android:name=".ListOfDocFormP"
+            android:exported="false"
+            android:parentActivityName=".OtherFormsP" />
+        <activity
+            android:name=".BailBondP"
+            android:exported="false"
+            android:parentActivityName=".OtherFormsP" />
+        <activity
+            android:name=".AddressFormP"
+            android:exported="false"
+            android:parentActivityName=".OtherFormsP" />
+        <activity
+            android:name=".FilingFormP"
+            android:exported="false"
+            android:parentActivityName=".OtherFormsP" />
+        <activity
+            android:name=".MiscellaneousP"
+            android:exported="false"
+            android:parentActivityName=".FeesP" />
+        <activity
+            android:name=".OfTheModeP"
+            android:exported="false"
+            android:parentActivityName=".FeesP" />
+        <activity
+            android:name=".ProcessFeesP"
+            android:exported="false"
+            android:parentActivityName=".FeesP" />
+        <activity
+            android:name=".ProbatesP"
+            android:exported="false"
+            android:parentActivityName=".FeesP" />
+        <activity
+            android:name=".ComputationP"
+            android:exported="false"
+            android:parentActivityName=".FeesP" />
+        <activity
+            android:name=".FeesInTheHighCourtP"
+            android:exported="false"
+            android:parentActivityName=".FeesP" />
+        <activity
+            android:name=".PreliminaryP"
+            android:exported="false"
+            android:parentActivityName=".FeesP" />
+        <activity
+            android:name=".ProfileA"
+            android:exported="false"
+            android:parentActivityName=".MainA"/>
+        <activity
+            android:name=".MainA"
+            android:exported="false"
+            android:parentActivityName=".LoginOptions"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".RegistrationA"
+            android:exported="false" />
+        <activity
+            android:name=".LoginA"
+            android:exported="false" />
+        <activity
+            android:name=".OtherFormsP"
+            android:exported="false"
+            android:parentActivityName=".FormsP" />
+        <activity
+            android:name=".ListOfDocP"
+            android:exported="false"
+            android:parentActivityName=".FormsP" />
+        <activity
+            android:name=".CaseCycleP"
+            android:exported="false"
+            android:parentActivityName=".InfoCenterP" />
+        <activity
+            android:name=".CriminalManualP"
+            android:exported="false"
+            android:parentActivityName=".InfoCenterP" />
+        <activity
+            android:name=".CaseTypeP"
+            android:exported="false"
+            android:parentActivityName=".CaseStatusP" />
+        <activity
+            android:name=".FilingNumberP"
+            android:exported="false"
+            android:parentActivityName=".CaseStatusP" />
+        <activity
+            android:name=".AdvocateNameP"
+            android:exported="false"
+            android:parentActivityName=".CaseStatusP" />
+        <activity
+            android:name=".FIRNumberP"
+            android:exported="false"
+            android:parentActivityName=".CaseStatusP" />
+        <activity
+            android:name=".CaseNumberP"
+            android:exported="false"
+            android:parentActivityName=".CaseStatusP" />
+        <activity
+            android:name=".FAQP"
+            android:exported="false"
+            android:parentActivityName=".MainP" />
+        <activity
+            android:name=".FeesP"
+            android:exported="false"
+            android:parentActivityName=".MainP" />
+        <activity
+            android:name=".FormsP"
+            android:exported="false"
+            android:parentActivityName=".MainP" />
+        <activity
+            android:name=".InfoCenterP"
+            android:exported="false"
+            android:parentActivityName=".MainP" />
+        <activity
+            android:name=".CaseStatusP"
+            android:exported="false"
+            android:parentActivityName=".MainP" />
+        <activity
+            android:name=".CauseListP"
+            android:exported="false"
+            android:parentActivityName=".MainP" />
+        <activity
+            android:name=".MainP"
+            android:exported="false"
+            android:parentActivityName=".LoginOptions"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".RegistrationP"
+            android:exported="false" />
+        <activity
+            android:name=".LoginP"
+            android:exported="false" />
+        <activity
+            android:name=".LoginOptions"
+            android:exported="false"
+            android:noHistory="true"/>
+        <activity
+            android:name=".Splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CropperActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+    </application>
+
+</manifest>

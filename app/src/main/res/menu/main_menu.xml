@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/privacyPolicy"
+            android:icon="@drawable/privacy_policy_icon"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout_icon"
+            android:title="Logout" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Communicate">
+            <menu>
+                <item
+                    android:id="@+id/contact"
+                    android:icon="@drawable/aboutus"
+                    android:title="About Us" />
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/share_icon"
+                    android:title="Share" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Contact Us">
+            <menu>
+                <item
+                    android:id="@+id/mail"
+                    android:icon="@drawable/mail"
+                    android:title="Mail" />
+                <item
+                    android:id="@+id/phone"
+                    android:icon="@drawable/ic_baseline_contact_phone_24"
+                    android:title="Phone" />
+
+            </menu>
+        </item>
+    </group>
+</menu>

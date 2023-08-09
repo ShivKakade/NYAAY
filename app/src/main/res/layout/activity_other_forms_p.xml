@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_second"
+        android:baselineAligned="false"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/text_vein"
+                android:layout_width="402dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/lobster_regular"
+                android:gravity="center"
+                android:text="OTHER FORMS"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.102" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:id="@+id/CauseList"
+            android:layout_width="386dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp">
+
+            <Button
+                android:id="@+id/btn_FilingForm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:fontFamily="@font/lobster_regular"
+                android:gravity="center"
+                android:text="Filing Form"
+                android:textSize="23sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/CaseStatus"
+            android:layout_width="386dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp" >
+
+            <Button
+                android:id="@+id/btn_AddressForm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:fontFamily="@font/lobster_regular"
+                android:gravity="center"
+                android:text="Address Form"
+                android:textSize="23sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/bailbondform"
+            android:layout_width="386dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp" >
+
+            <Button
+                android:id="@+id/btn_bbform"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:fontFamily="@font/lobster_regular"
+                android:gravity="center"
+                android:text="BAIL BOND FORM"
+                android:textSize="23sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/listofdocuments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp" >
+
+            <Button
+                android:id="@+id/listofdoc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/lobster_regular"
+                android:gravity="center"
+                android:text="list of documents form produced by plantiff/defendent"
+                android:textSize="23sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/motoraccident"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp" >
+
+            <Button
+                android:id="@+id/btn_motoraccident"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:fontFamily="@font/lobster_regular"
+                android:gravity="center"
+                android:text="motor accident claim tribunal"
+                android:textSize="23sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/mediform"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp" >
+
+
+            <Button
+                android:id="@+id/btn_mediform"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:fontFamily="@font/lobster_regular"
+                android:gravity="center"
+                android:text="macp medi form"
+                android:textSize="23sp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/policereport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp" >
+
+
+            <Button
+                android:id="@+id/btn_policereport"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:fontFamily="@font/lobster_regular"
+                android:gravity="center"
+                android:text="macp police report"
+                android:textSize="23sp" />
+
+        </RelativeLayout> <RelativeLayout
+        android:id="@+id/appearance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp" >
+
+
+        <Button
+            android:id="@+id/btn_appearance"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:fontFamily="@font/lobster_regular"
+            android:gravity="center"
+            android:text="memoandum of appearance"
+            android:textSize="23sp" />
+
+    </RelativeLayout> <RelativeLayout
+        android:id="@+id/producedocument"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp" >
+
+
+        <Button
+            android:id="@+id/btn_producedocument"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:fontFamily="@font/lobster_regular"
+            android:gravity="center"
+            android:text="notice to produce document"
+            android:textSize="23sp" />
+
+    </RelativeLayout> <RelativeLayout
+        android:id="@+id/feeform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp" >
+
+
+        <Button
+            android:id="@+id/btn_feeform"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:fontFamily="@font/lobster_regular"
+            android:gravity="center"
+            android:text="process fee form"
+            android:textSize="23sp" />
+
+    </RelativeLayout> <RelativeLayout
+        android:id="@+id/bondform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp" >
+
+
+        <Button
+            android:id="@+id/btn_bondform"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:fontFamily="@font/lobster_regular"
+            android:gravity="center"
+            android:text="surety bond form"
+            android:textSize="23sp" />
+
+    </RelativeLayout><RelativeLayout
+        android:id="@+id/vakalatnamaform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp" >
+
+        <Button
+            android:id="@+id/btn_vakalatnamaform"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:fontFamily="@font/lobster_regular"
+            android:gravity="center"
+            android:text="vakalatnama form"
+            android:textSize="23sp" />
+
+    </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="411dp"
+            android:layout_height="218dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/casestatus"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="583dp" />
+
+
+    </LinearLayout>
+</ScrollView>

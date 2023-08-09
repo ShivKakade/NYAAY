@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layoutP"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:scrollbars="none"
+    tools:openDrawer="start" >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_second"
+        android:baselineAligned="false"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            tools:ignore="MissingConstraints">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/brown"
+                android:title="@string/NYAAY"
+                app:titleTextColor="@color/white"
+                />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:id="@+id/text_vein"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbarP"
+                android:layout_marginStart="158dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/NYAAY"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/CaseStatus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            >
+
+
+            <Button
+                android:id="@+id/btn_CaseStatus"
+                android:layout_width="314dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/button_bg"
+                android:gravity="center"
+                android:text="@string/case_status"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="23sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/informationcentre"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp" >
+
+            <Button
+
+                android:id="@+id/btn_InfoCenter"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="0dp"
+                android:gravity="center"
+                android:text="Information Center"
+                android:textSize="23sp"
+                android:background="@drawable/button_bg"
+                android:textColor="@color/cardview_light_background"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Judgements"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp" >
+
+            <Button
+                android:id="@+id/btn_Forms"
+                android:layout_width="306dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/button_bg"
+                android:gravity="center"
+                android:text="@string/forms"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="23sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/DisplayBoard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp" >
+
+            <Button
+                android:id="@+id/btn_Fees"
+                android:layout_width="314dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/button_bg"
+                android:gravity="center"
+                android:text="fees"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="23sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/FAQ"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp" >
+
+            <Button
+                android:id="@+id/btn_FAQ"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/button_bg"
+                android:gravity="center"
+                android:text="FAQ"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="23sp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="411dp"
+            android:layout_height="218dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/casestatus"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="583dp" />
+
+
+    </LinearLayout>
+    </ScrollView>
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navP"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/main_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

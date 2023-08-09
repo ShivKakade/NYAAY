@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_second"
+        android:baselineAligned="false"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_vein"
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:fontFamily="@font/lobster_regular"
+            android:gravity="center"
+            android:text="FEES"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.639"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.085" />
+
+        <RelativeLayout
+
+            android:id="@+id/Preliminary"
+            android:layout_width="386dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="30sp">
+
+            <Button
+                android:id="@+id/btn_preliminary"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/lobster_regular"
+                android:gravity="center"
+                android:text="Preliminary"
+                android:textSize="23sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/HighCourt"
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp">
+
+            <Button
+                android:id="@+id/btn_fihc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:fontFamily="@font/lobster_regular"
+                android:gravity="center"
+                android:text="Fees in high court and in the small causes court at bombay"
+                android:textSize="23sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Computation"
+            android:layout_width="386dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp" >
+
+            <Button
+                android:id="@+id/btn_computation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:fontFamily="@font/lobster_regular"
+                android:gravity="center"
+                android:text="Computation of fees"
+                android:textSize="23sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Probates"
+            android:layout_width="386dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp" >
+
+            <Button
+                android:id="@+id/btn_probates"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:fontFamily="@font/lobster_regular"
+                android:gravity="center"
+                android:text="Probates, letters of administration and certificates of administration."
+                android:textSize="23sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Processfees"
+            android:layout_width="386dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp" >
+
+            <Button
+                android:id="@+id/btn_ProcessFees"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:fontFamily="@font/lobster_regular"
+                android:gravity="center"
+                android:text="Process fees"
+                android:textSize="23sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/modeoflevyingfees"
+            android:layout_width="386dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp" >
+
+            <Button
+                android:id="@+id/btn_OfTheMode"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:fontFamily="@font/lobster_regular"
+                android:gravity="center"
+                android:text="Of the mode of levying fees"
+                android:textSize="23sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Miscellaneous"
+            android:layout_width="386dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp" >
+
+            <Button
+                android:id="@+id/btn_Miscellaneous"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:fontFamily="@font/lobster_regular"
+                android:gravity="center"
+                android:text="Miscellaneous"
+                android:textSize="23sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="370dp"
+            android:layout_height="218dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="45dp"
+            app:srcCompat="@drawable/infocenter"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="583dp" />
+
+    </LinearLayout>
+</ScrollView>

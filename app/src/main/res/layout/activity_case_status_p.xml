@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_second"
+        android:baselineAligned="false"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/text_vein"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:gravity="center"
+                android:text=" CASE STATUS"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.639"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.085" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+
+            android:id="@+id/CaseNumber"
+            android:layout_width="386dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:layout_width="386dp"
+                android:layout_height="60dp"
+                android:background="@color/brown"
+                android:textColor="@color/white">
+            </TextView>
+
+            <Button
+                android:id="@+id/btn_CaseNumber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:gravity="center"
+                android:text="case number"
+                android:textSize="23sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/firnumber"
+            android:layout_width="386dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp" >
+            <TextView
+                android:layout_width="386dp"
+                android:layout_height="60dp"
+                android:background="@color/brown"
+                android:textColor="@color/white">
+            </TextView>
+
+            <Button
+                android:id="@+id/btn_FIRNumber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:gravity="center"
+                android:text="fir number"
+                android:textSize="23sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/advocatename"
+            android:layout_width="386dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp" >
+            <TextView
+                android:layout_width="386dp"
+                android:layout_height="60dp"
+                android:background="@color/brown"
+                android:textColor="@color/white">
+            </TextView>
+
+            <Button
+                android:id="@+id/btn_AdvName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:gravity="center"
+                android:text="advocate name"
+                android:textSize="23sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/filingnumber"
+            android:layout_width="386dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp" >
+            <TextView
+                android:layout_width="386dp"
+                android:layout_height="60dp"
+                android:background="@color/brown"
+                android:textColor="@color/white">
+            </TextView>
+
+            <Button
+                android:id="@+id/btn_FilingNumber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:gravity="center"
+                android:text="filing number"
+                android:textSize="23sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/casetype"
+            android:layout_width="386dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp" >
+            <TextView
+                android:layout_width="386dp"
+                android:layout_height="60dp"
+                android:background="@color/brown"
+                android:textColor="@color/white">
+            </TextView>
+
+            <Button
+                android:id="@+id/btn_CaseType"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:gravity="center"
+                android:text="@string/case_type"
+                android:textSize="23sp" />
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="370dp"
+            android:layout_height="218dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/casestatus"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="583dp"
+            android:contentDescription="@string/todo" />
+
+
+    </LinearLayout>
+</ScrollView>

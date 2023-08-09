@@ -1,0 +1,183 @@
+<resources>
+    <string name="name">Name</string>
+    <string name="app_name">Nyaay</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_an_account">Already Have An Account?</string>
+    <string name="default_web_client_id1">Default web client id</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="don_t_have_an_account">Don\'t have an Account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="todo">TODO</string>
+    <string name="nyaay_judicial_system_management_and_administration">Nyaay: Judicial System Management And Administration</string>
+    <string name="home">Home</string>
+    <string name="about_us">About Us</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="logout">Logout</string>
+    <string name="communicate">Communicate</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="share">Share</string>
+    <string name="NYAAY">NYAAY</string>
+    <string name="judicial_system_management_and_administration">Judicial System Management And Administration</string>
+    <string name="nyaay">NYAAY:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Search...</string>
+    <string name="cause_list">Cause List</string>
+    <string name="case_status">Case Status</string>
+    <string name="daily_orders">Daily Orders</string>
+    <string name="judgement">Judgement</string>
+    <string name="display_board">Display Board</string>
+    <string name="office_report">Office Report</string>
+    <string name="civil_manual">Civil manual</string>
+    <string name="case_cycle">Case cycle</string>
+    <string name="criminal_manual">Criminal manual</string>
+    <string name="information_center">Information Center</string>
+    <string name="forms">Forms</string>
+    <string name="court_complex">Court Complex:</string>
+    <string name="court_name">Court Name:</string>
+    <string name="district">District</string>
+    <string name="list_of_documents">List of Documents</string>
+    <string name="plaint_petition_appeal_memo">Plaint/Petition/Appeal memo</string>
+    <string name="list_of_documentation">LIST OF DOCUMENTATION</string>
+    <string name="application_for_process">Application for process</string>
+    <string name="application_for_leave_to_sue_as_a_paper">Application for leave to sue as a paper</string>
+    <string name="vakilpatra">Vakilpatra</string>
+    <string name="bail_bond_personal_bond">Bail Bond/Personal Bond</string>
+    <string name="caveat_appln">Caveat Appln.</string>
+    <string name="copy_of_judgement">Copy of Judgement</string>
+    <string name="caveat">Caveat</string>
+    <string name="applications_u_s_20_of_arbitration_act">Applications u/s.20 of Arbitration Act</string>
+    <string name="certificate_under_part_x_of_succe_act">Certificate under part X of Succe.Act</string>
+    <string name="copy_of_decree">Copy of Decree</string>
+    <string name="copy_of_document">Copy of document</string>
+    <string name="copy_of_judicial_revenue_proceedings">Copy of Judicial/Revenue proceedings</string>
+    <string name="appplications_of_attachment_arrest_before_judgement">Appplications of attachment/arrest before judgement</string>
+    <string name="application_for_t_i">Application for T.I</string>
+    <string name="login_options">Login Options</string>
+    <string name="plantiffs">Plantiffs</string>
+    <string name="advocates">Advocates</string>
+    <string name="case_type">Case Type</string>
+    <string name="if_i_have_some_complaint_can_i_directly_approach_to_the_court">If I have some complaint can I directly approach to the court?</string>
+    <string name="yes_you_may_directly_approach_presiding_officer_judge_of_the_court_to_submit_your_complaint_on_any_working_day_in_the_court_at_the_time_mentioned_on_the_board_titled">Yes, you may directly approach Presiding officer/Judge of the court to submit your complaint on any working day in the court at the time mentioned on the board titled.</string>
+    <string name="what_are_the_basic_types_of_cases">What are the basic types of cases?</string>
+    <string name="the_cases_are_primarily_classified_in_two_classes_viz_civil_and_criminal">The cases are primarily classified in two classes viz. Civil and Criminal.</string>
+    <string name="what_is_a_civil_case">What is a civil case?</string>
+    <string name="the_case_seeking_remedy_with_reference_to_the_property_and_other_civil_rights_given_under_any_civil_law_is_said_to_be_civil_case">The case seeking remedy with reference to the property and other civil rights given under any civil law is said to be civil case.</string>
+    <string name="what_is_a_criminal_case">What is a criminal case?</string>
+    <string name="can_a_common_man_file_a_case_directly_without_help_the_of_an_advocate">Can a common man file a case directly without help the of an Advocate?</string>
+    <string name="yes_there_is_no_provisions_in_law_through_which_requires_engagement_of_advocate_is_compulsory_person_may_file_or_defend_any_case_personally_without_engaging_advocate">Yes, there is no provisions in law through which requires engagement of advocate is compulsory. Person may file or defend any case personally without engaging advocate.</string>
+    <string name="how_much_amount_is_estimated_to_be_paid_as_various_type_of_fees_in_a_court">How much amount is estimated to be paid as various type of fees in a court?</string>
+    <string name="court_fee_process_fee_and_copying_fee_are_the_three_main_kinds_of_fee_to_be_paid_in_courts_court_fee_is_to_be_paid_under_the_provisions_of_bombay_court_fee_act_for_certain_matters_fixed_court_fee_is_required_one_may_refer_schedule_ii_of_the_said_act_to_see_requirement_of_fixed_court_fees_for_the_purpose_of_court_fee_while_filing_of_suits_one_has_to_pay_fee_as_per_schedule_i_of_the_said_act_in_which_requirement_of_court_fee_on_the_basis_of_valuation_of_the_matter_is_given_as_regards_process_fee_it_is_fee_in_the_form_of_court_fee_stamps_required_to_be_paid_for_issuance_of_various_process_i_e_summon_notice_warrant_etc_the_same_is_to_be_paid_as_per_chart_given_in_civil_manual_copying_fee_is_the_fee_required_to_be_paid_for_getting_certified_copies_of_the_documents_order_or_judgment_as_per_instructions_contained_in_chapter_xxix_of_civil_manual_copying_fee_at_the_rate_of_rs_4_per_page_and_rs_7_per_page_is_required_to_be_deposited_for_ordinary_and_urgent_copy_respectively">Court fee, Process fee and copying fee are the three main kinds of fee to be paid in courts. Court fee is to be paid under the provisions of Bombay Court Fee Act. For certain matters fixed court fee is required. One may refer Schedule II of the said act to see requirement of fixed court fees. For the purpose of court fee while filing of suits, one has to pay fee as per schedule I of the said Act in which requirement of court fee on the basis of valuation of the matter is given. As regards process fee, it is fee in the form of court fee stamps required to be paid for issuance of various process i.e. Summon,notice, warrant etc. The same is to be paid as per chart given in Civil Manual. Copying fee is the fee required to be paid for getting certified copies of the documents order or judgment. As per instructions contained in chapter XXIX of Civil Manual , copying fee at the rate of Rs.4 per page and Rs.7/- per page is required to be deposited for ordinary and urgent copy respectively.</string>
+    <string name="what_are_the_facilities_available_for_a_poor_people_to_file_case">What are the facilities available for a Poor People to file case?</string>
+    <string name="criminal_case_is_a_case_for_violation_of_act_prohibited_by_law_for_which_punishment_of_impressionment_fine_is_prescribed">Criminal case is a case for violation of act prohibited by law for which punishment of impressionment / fine is prescribed.</string>
+    <string name="in_order_to_file_or_defend_any_proceeding_in_court_a_person_whose_annual_income_does_not_exceeds_rs_50000_fifty_thousand_is_eligible_to_get_free_legal_aid_through_district_or_taluka_legal_services_authority_benefits_under_order_xxxiii_of_civil_procedure_code_may_also_be_availed_by_economically_weakers_to_file_or_defend_any_civil_proceeding_in_court_however_prior_to_it_he_has_to_file_application_seeking_permission_of_the_same_to_do_so">In order to file or defend any proceeding in court, a person whose annual income does not exceeds Rs.50000\'/ (Fifty thousand) is eligible to get free legal aid through District or Taluka Legal Services Authority. Benefits under order XXXIII of Civil procedure Code may also be availed by economically weakers to file or defend any civil proceeding in court. However, prior to it he has to file application seeking permission of the same to do so.</string>
+    <string name="how_much_time_is_required_to_get_the_result_of_a_case">How much time is required to get the result of a case?</string>
+    <string name="normally_criminal_case_is_expected_to_be_decided_within_six_months_civil_matters_are_expected_to_have_disposal_within_three_years_however_one_can_not_expect_disposal_of_case_within_such_period_of_time_it_depends_upon_response_from_both_the_parties_pendency_of_cases_before_respective_court_and_circumstances_of_the_case">Normally criminal case is expected to be decided within six months. Civil matters are expected to have disposal within three years. However, one can not expect disposal of case within such period of time. It depends upon response from both the parties, pendency of cases before respective court and circumstances of the case.</string>
+    <string name="if_some_body_mischievously_files_case_against_me_what_action_should_i_take">If some body mischievously files case against me what action should I take.</string>
+    <string name="in_case_of_criminal_matter_you_may_seek_compensation_by_filing_suit_for_malicious_prosecution_however_judgment_must_contain_the_findings_to_the_effect_that_prosecution_faced_is_malicious_one_in_civil_litigation_also_you_may_seek_compensation_rules_framed_by_high_court_for_prevention_of_vexatious_litigation_may_also_be_referred_in_the_civil_manual">In case of criminal matter, you may seek compensation by filing suit for malicious prosecution. However, judgment must contain the findings to the effect that prosecution faced is malicious one. In civil litigation also you may seek compensation. Rules framed by High Court for prevention of Vexatious litigation may also be referred in the civil manual.</string>
+    <string name="to_whom_a_common_man_should_approach_for_any_help_related_to_court">To whom a Common man should approach for any help related to court?</string>
+    <string name="at_the_first_instance_registrar_of_district_court_and_superintendent_assistant_superintendent_in_courts_at_taluka_level_are_the_head_of_ministerial_staff_to_whom_common_man_may_approach_he_may_approach_to_the_judge_of_the_court_in_the_time_prescribed_for_the_same_in_addition_to_this_enquiry_counter_is_available_in_court_on_which_common_man_may_get_required_information">At the first instance Registrar of District Court and Superintendent/Assistant Superintendent in courts at taluka level are the head of ministerial staff to whom common man may approach. He may approach to the Judge of the court in the time prescribed for the same. In addition to this, enquiry counter is available in court on which common man may get required information.</string>
+    <string name="how_long_will_it_take_for_a_final_judgment_after_the_case_is_filed">How long will it take for a final Judgment after the Case is filed?</string>
+    <string name="normally_criminal_case_is_expected_to_be_decided_within_six_months_civil_matters_are_expected_to_have_disposal_within_three_years_however_one_can_not_expect_disposal_of_case_within_such_period_of_time_it_depends_upon_response_from_both_the_parties_pendency_of_cases_before_respective_court_and_circumstances_of_the_case_however_after_conclusion_of_hearing_judgment_is_required_to_pronounced_in_courts_as_early_as_possible_and_within15_days_and_in_civil_side_in_no_case_beyond_2_months_after_final_arguments_are_heard">Normally criminal case is expected to be decided within six months. Civil matters are expected to have disposal within three years. However, one can not expect disposal of case within such period of time. It depends upon response from both the parties, pendency of cases before respective court and circumstances of the case. However, after conclusion of hearing judgment is required to pronounced in courts as early as possible and within15 days and in civil side in no case beyond 2 months, after final arguments are heard.</string>
+    <string name="is_any_standard_form_available_to_file_a_case">Is any standard form available to file a case?</string>
+    <string name="yes_for_civil_suit_standard_form_is_available_the_contents_as_mentioned_in_order_viii_of_cpc_are_required_to_be_incorporated_in_the_plaint_for_criminal_complaint_other_than_police_no_prescribed_format_is_available_complaint_must_contain_name_of_court_date_of_offence_place_of_offence_mode_of_commission_of_crime_and_prayer_and_names_of_witnesses">Yes for civil suit standard form is available. The contents as mentioned in order VIII of CPC are required to be incorporated in the plaint. For criminal complaint other than police, no prescribed format is available. Complaint must contain name of court, date of offence, place of offence, mode of commission of crime and prayer and names of witnesses.</string>
+    <string name="can_i_file_case_from_home">Can I file case from home?</string>
+    <string name="no_you_can_file_case_in_court_either_personally_or_through_advocate_next_friend_after_e_filing_facility_is_made_available_this_could_be_avoided">No. You can file case in court either personally or through advocate/next friend. After \'E\' filing facility is made available, this could be avoided.</string>
+    <string name="case_number">Case Number</string>
+    <string name="year">Year</string>
+    <string name="login_plantiff">Login Plaintiff</string>
+    <string name="login_to_your_existing_account">Login to your existing account</string>
+    <string name="don_t_have_an_account_signup">Don\'t have an account? <b>SignUp</b></string>
+    <string name="registration_plantiff">Registration Plaintiff</string>
+    <string name="create_new_account">Create New Account</string>
+
+    <string-array name="Districts">
+        <item>-Select District-</item>
+        <item>Mumbai</item>
+        <item>Pune</item>
+        <item>Raigad</item>
+
+    </string-array>
+
+    <string-array name="CourtComplex">
+        <item>-Select Court Complex-</item>
+        <item>Civil Court, Khed-410505</item>
+
+    </string-array>
+
+
+    <string-array name="PoliceStation">
+        <item>-Select Police Station-</item>
+        <item>KHED POLICE STATION 1</item>
+
+    </string-array>
+
+    <string-array name="FIRNumber">
+        <item>-Select FIR Number-</item>
+        <item>112/2022</item>
+
+    </string-array>
+
+    <string-array name="Year">
+        <item>-Select Year-</item>
+        <item>2022</item>
+
+    </string-array>
+
+    <string-array name="CaseType">
+        <item>-Select Case Type -</item>
+        <item>Civil Suit</item>
+
+    </string-array>
+
+    <string-array name="CaseType2">
+        <item>-Select Case Type -</item>
+        <item>Civil Suit</item>
+
+    </string-array>
+
+    <string-array name="CourtName">
+        <item>-Select Court Name -</item>
+        <item>Smt. R.D. Patange-Ingle-JT. CIVIL JUDGE</item>
+
+    </string-array>
+
+    <string-array name="CaseNumber">
+        <item>-Select Case Number-</item>
+        <item>MHAU019999992015</item>
+
+    </string-array>
+
+    <string-array name="Advocate">
+        <item>-Select Advocate Name-</item>
+        <item> Ujjwal Nikam </item>
+
+    </string-array>
+
+    <string-array name="FilingNumber">
+        <item>-Select Filing Number-</item>
+        <item> 2961 </item>
+
+    </string-array>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_main">MainActivity</string>
+
+
+</resources>
